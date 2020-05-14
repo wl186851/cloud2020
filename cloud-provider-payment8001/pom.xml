@@ -13,6 +13,13 @@
 
 
     <dependencies>
+        <!-- eureka引入-->
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>com.wu.springcloud</groupId>
             <artifactId>cloud-api</artifactId>
